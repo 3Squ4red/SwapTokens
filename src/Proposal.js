@@ -40,7 +40,7 @@ const Proposal = ({
 
   return (
     <Card className="card">
-      <CardContent>
+      <CardContent className="cc">
         <Typography
           sx={{ fontSize: 24 }}
           variant="h5"
@@ -75,7 +75,7 @@ const Proposal = ({
           )
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions className="cardActions">
         <Button
           size="small"
           onClick={async () => {
